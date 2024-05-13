@@ -3,7 +3,7 @@ import { helperFetchClima } from './helpers/helperFetchClima'
 
 
 export const WheatherApp = () => {
-  
+
 /* Estas variables las incorporo al Helper helperFetchClima,js 
   const urlBase = 'https://api.openweathermap.org/data/2.5/weather'
   const API_Key = 'ee9f833fa04f785176592353e668cd12'
@@ -66,6 +66,7 @@ export const WheatherApp = () => {
         <h1>Aplicación del clima</h1>
         <form onSubmit={handleSubmit}>
           <input 
+            placeholder='Ingrese ciudad'
             type="text"
             value={ciudad}
             onChange={handleCambioCiudad}
