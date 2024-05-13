@@ -1,0 +1,111 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: rgb(83, 150, 226);
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 35px;
+  margin-bottom: 20px;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+form {
+  display: flex;
+  margin-bottom: 45px;
+  box-shadow: 0px 0px 0px 4px #92c6fe;
+  background-color: #92c6fe;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 3px solid #0257ff;
+  border-radius:9px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  border-radius: 9px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+
+.cityStyle {
+  font-size: 32px;
+  font-style: oblique;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.cityError {
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+.searching {
+  font-size: 22px;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  margin-top: 0px;
+}
+
+/* Estilos para móviles */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 20px;
+  }
+
+  input[type="text"] {
+    font-size: 14px;
+  }
+
+  button {
+    padding: 8px 16px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  img {
+    width: 40px;
+    height: 40px;
+  }
+}
