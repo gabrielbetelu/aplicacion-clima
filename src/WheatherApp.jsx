@@ -5,8 +5,8 @@ import { helperFetchClima } from './helpers/helperFetchClima'
 export const WheatherApp = () => {
 
 /* Estas variables las incorporo al Helper helperFetchClima,js 
-  const urlBase = 'https://api.openweathermap.org/data/2.5/weather'
-  const API_Key = 'ee9f833fa04f785176592353e668cd12'
+  const urlBase = import.meta.env.VITE_urlBase;
+  const API_Key = import.meta.env.VITE_API_Key;
 */
 
   const [ciudad, setCiudad] = useState('')

@@ -1,6 +1,6 @@
 export const helperFetchClima = async (ciudad) => {
-  const urlBase = 'https://api.openweathermap.org/data/2.5/weather'
-  const API_Key = 'ee9f833fa04f785176592353e668cd12'
+  const urlBase = import.meta.env.VITE_urlBase;
+  const API_Key = import.meta.env.VITE_API_Key;
 
   try {
     const response = await fetch(`${urlBase}?q=${ciudad}&appid=${API_Key}`)
